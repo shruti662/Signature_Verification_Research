@@ -26,28 +26,39 @@ Determines the best decision boundary for genuine vs forged signatures
 ⚙️ Tech Stack
 Programming Language: Python
 Libraries & Frameworks:
-PyTorch
-NumPy
-OpenCV
-Scikit-learn
-Matplotlib
+PyTorch,
+NumPy,
+OpenCV,
+Scikit-learn,
+Matplotlib.
 
 📊 Work Done So Far
+
 Data preprocessing and normalization of signature images
+
 Implementation of Siamese network architecture
+
 Integration of prototypical learning for user representation
+
 Feature embedding generation using deep learning
+
 Similarity computation using cosine distance
+
 Initial threshold tuning experiments
+
+Opted the final Accuracy, FAR and FRR of the query Signatures from the given datasets.
 
 📁 Dataset
 Offline handwritten signature dataset (genuine + forged samples)
-CEDAR Signature Dataset 
-A benchmark dataset consisting of genuine and skilled forged signatures from multiple users. It is widely used for baseline evaluation in offline signature verification research.
-GPDS-300 Signature Dataset
-A subset of the GPDS dataset containing signatures from 300 users. It introduces significant intra-class variability and is used to enhance model generalization and performance across diverse writing styles.
-MCYT-100 Signature Dataset 
-A structured dataset containing signatures from 100 users, including both genuine and forged samples. It is useful for evaluating consistency and verification accuracy under controlled conditions.
+
+CEDAR Signature Dataset, 
+a benchmark dataset consisting of genuine and skilled forged signatures from multiple users. It is widely used for baseline evaluation in offline signature verification research.
+
+GPDS-300 Signature Dataset,
+a subset of the GPDS dataset containing signatures from 300 users. It introduces significant intra-class variability and is used to enhance model generalization and performance across diverse writing styles.
+
+MCYT-100 Signature Dataset, 
+a structured dataset containing signatures from 100 users, including both genuine and forged samples. It is useful for evaluating consistency and verification accuracy under controlled conditions.
 Preprocessed into grayscale and resized format for model input
 
 📈 Future Work
@@ -57,11 +68,11 @@ Deploy as a web-based authentication system
 Integrate real-time verification API
 
 🚀 Applications
-Banking authentication systems
-Document verification
-Identity validation systems
-Secure digital transactions
+-Banking authentication systems,
+Document verification,
+Identity validation systems,
+Secure digital transactions.
 
 
-Shruti Gadilkar
+Shruti Gadilkar -
 Final Year Computer Engineering Student
