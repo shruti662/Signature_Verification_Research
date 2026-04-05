@@ -26,7 +26,7 @@ Determines the best decision boundary for genuine vs forged signatures
 ⚙️ Tech Stack
 Programming Language: Python
 Libraries & Frameworks:
-TensorFlow / PyTorch
+PyTorch
 NumPy
 OpenCV
 Scikit-learn
