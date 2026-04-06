@@ -3,6 +3,23 @@
 
 This project focuses on developing a few-shot offline signature verification system capable of accurately verifying handwritten signatures using only a limited number of genuine samples per user. The system is designed to address real-world biometric constraints where large datasets are not always available.
 
+📄 Research & Review Papers
+
+This project is supported by detailed academic work, including both a research paper and a comprehensive literature review focused on offline signature verification.
+
+🔬 Research Paper
+
+This paper presents the methodology, implementation, and evaluation of the signature verification system. It covers feature extraction techniques, model design, and performance analysis on benchmark datasets.
+
+📑 View Research Paper
+
+
+📚 Review Paper
+
+This paper provides a structured overview of existing approaches in signature verification, including traditional machine learning methods and modern deep learning techniques. It highlights key challenges, datasets, and comparative insights from prior research.
+
+📑 View Review Paper
+
 🎯 Objectives
 Build a robust signature verification model using minimal training data (5 samples per user)
 Combine Siamese Networks and Prototypical Learning for improved accuracy
