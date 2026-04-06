@@ -20,16 +20,18 @@ This paper provides a structured overview of existing approaches in signature ve
 
 📑 View [Review paper on Signature Verification Project.pdf](https://github.com/user-attachments/files/26494394/Review.paper.on.Signature.Verification.Project.pdf)
 
+
+
 🎯 Objectives
 Build a robust signature verification model using minimal training data (5 samples per user)
 Combine Siamese Networks and Prototypical Learning for improved accuracy
 Ensure scale-invariant and stable similarity comparison
 Develop a system suitable for real-world authentication scenarios
 
+
 🧠 Methodology
 
 The proposed system uses a hybrid deep learning approach:
-
 Siamese Neural Network
 Learns similarity between pairs of signatures
 Prototypical Learning
@@ -40,6 +42,7 @@ Cosine Similarity for comparison
 Threshold Optimization
 Determines the best decision boundary for genuine vs forged signatures
 
+
 ⚙️ Tech Stack
 Programming Language: Python
 Libraries & Frameworks:
@@ -48,6 +51,7 @@ NumPy,
 OpenCV,
 Scikit-learn,
 Matplotlib.
+
 
 📊 Work Done So Far
 
@@ -65,6 +69,7 @@ Initial threshold tuning experiments
 
 Opted the final Accuracy, FAR and FRR of the query Signatures from the given datasets.
 
+
 📁 Dataset
 Offline handwritten signature dataset (genuine + forged samples)
 
@@ -78,11 +83,13 @@ MCYT-100 Signature Dataset,
 a structured dataset containing signatures from 100 users, including both genuine and forged samples. It is useful for evaluating consistency and verification accuracy under controlled conditions.
 Preprocessed into grayscale and resized format for model input
 
+
 📈 Future Work
 Improve model accuracy with data augmentation
 Optimize threshold selection using ROC analysis
 Deploy as a web-based authentication system
 Integrate real-time verification API
+
 
 🚀 Applications
 -Banking authentication systems,
